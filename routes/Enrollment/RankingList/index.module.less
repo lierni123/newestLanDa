@@ -1,0 +1,111 @@
+.normal {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-size: 0.18rem;
+  font-weight: bold;
+  font-family: PingFangSC-Regular;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.1rem;
+}
+.circle {
+  width: 0.2rem;
+  height: 0.2rem;
+  display: block;
+  text-align: center;
+  line-height: 0.2rem;
+  color: #fff;
+  border-radius: 50%;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 0.12rem;
+  margin-right: 0.1rem;
+  margin-top: 0.08rem;
+}
+.circle1 {
+  background-color: #ee873d;
+}
+.circle2 {
+  background-color: rgba(0, 177, 239, 1);
+}
+.circle3,
+.circle4,
+.circle6,
+.circle7,
+.circle8,
+.circle9,
+.circle10,
+.circle5 {
+  background-color: #0666a7;
+}
+.ranking {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  li {
+    display: flex;
+    //margin-bottom: 0.22rem;
+    height: 0.54rem;
+    align-items: center;
+  }
+}
+
+.schoolName {
+  font-weight: normal;
+  font-size: 0.14rem;
+  font-family: PingFang-SC-Bold;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  height: 0.2rem;
+}
+.personBg {
+  width: 12px;
+  height: 16px;
+  display: inline-block;
+  background-position: center top;
+  border-right: none;
+}
+
+.personNum {
+  font-size: 0.14rem;
+  margin-left: 0.08rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: PingFang-SC-Regular;
+  font-weight: 300;
+}
+.last {
+  width: 0.1rem;
+  height: 0.16rem;
+  display: inline-block;
+  background-position: center top;
+  border: 0.01rem dashed rgba(255, 255, 255, 0.8);
+}
+
+.detail {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.wrap {
+  height: 2.8rem;
+  position: relative;
+}
+.pagination {
+  position: absolute;
+  bottom: -5px;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+}
+.pagination span {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.pagination span.active {
+  background: rgba(255, 255, 255, 0.7);
+}

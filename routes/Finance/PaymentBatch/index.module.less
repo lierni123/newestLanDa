@@ -1,0 +1,44 @@
+.head,
+.data {
+  display: -webkit-flex;
+  display: flex;
+}
+.head li {
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.16rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 300;
+}
+.data {
+  height: 0.75rem;
+  margin-top: 0.05rem;
+  line-height: 0.75rem;
+  li {
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+    font-size: 0.42rem;
+    font-family: DIN-Medium;
+    border-right: 0.01rem solid rgba(255, 255, 255, 0.15);
+    font-weight: Medium;
+  }
+}
+
+.data li:last-child {
+  border-right: none;
+}
+.payTime {
+  font-size: 0.26rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: PingFangSC-Regular;
+  text-align: center;
+  margin: 0.12rem 0 0.3rem;
+}
+.payTime .time {
+  font-size: 0.28rem;
+  font-family: PingFangSC-Regular;
+  color: rgba(255, 255, 255, 0.9);
+}
